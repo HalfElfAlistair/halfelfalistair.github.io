@@ -5,35 +5,35 @@ body {
 }
 
 .grid {
-	border: 1px blue solid;
 	width: 100%;
-	height: 2000px;
+	height: 4800px;
 	display: grid;
-	grid-template-rows: 10% 20% 30% 40%;
-	grid-template-columns: 50% 50%;
+	grid-template: 60px 450px 536px 330px 431px 840px 153px 450px 50px 500px 600px 500px / 25% 25% 50%;
 }
 
 .box {
 	background-color: #FFFFFF;
 	color: #000000;
-	border: 1px blue solid;
 }
 
 
 .a {
-	grid-area: 1 / span 2;
-	background-color: #03fcba;
-	align-items: stretch;
-	float: right;
+	grid-area: 1 / span 3;
+	background-color: #f0fff8;
+}
+
+nav ul {
+	position: absolute;
+	right: 50px;
 }
 
 nav ul li {
-    display: inline-block;
+	display: inline-block;
 }
 
 .b {
-	grid-area: 2 / span 2;
-	padding: 25px;
+	grid-area: 2 / span 3;
+	padding: 25px 300px;
 }
 
 h1 {
@@ -42,28 +42,97 @@ h1 {
 	padding: 15px 10px 25px;
 }
 
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
 p {
 	margin left: 10px;
 	padding-top: 5px;
 }
 
-.c {
-	grid-area:3 / span 2;
+a:link {
+		text-decoration: none;
+		color: #8520A7;
 }
 
-img {
+a:visited {
+	text-decoration: none;
+	color: #0E8168;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #7f03fc;
+}
+
+.c {
+	grid-area:3 / span 3;
+}
+
+.c img {
     width: 100%;
 }
 
 .d {
-	grid-area: 4 / 1;
-	border: 1px blue solid;
-	background-color: red;
+	grid-area: 4 / span 3;
+	padding: 25px 300px;
 }
 
 .e {
-	grid-area: 4 / 2;
-	border: 1px blue solid;
-	background-color:black;
+	grid-area: 5 / span 3;
+	text-align: center;
+	background-color: #dce6e1;
+	padding: 30px;
+	margin: 25px 300px;
 }
 
+.f {
+	grid-area: 6 / span 3;
+	padding: 25px 300px;
+}
+
+.g {
+	grid-area: 7 / span 3;
+	background-color: #dce6e1;
+	padding: 34px 0px;
+}
+
+.h {
+	grid-area: 8 / span 3;
+	padding: 25px 300px;
+}
+
+.KST {
+	grid-area: 9 / span 2;
+}
+
+.i {
+	grid-area: 10 / 1;
+	padding: 25px 25px;
+	line-height: 40px;
+}
+
+.j {
+	grid-area: 10 / 2;
+	padding: 25px 25px;
+	line-height: 40px;
+}
+
+.k {
+	grid-area: 9 / 3 / span 2 / 3;
+}
+
+.l {
+	grid-area: 11 / span 3;
+	padding: 25px 300px;
+}
+
+.m {
+	grid-area: 12 / span 3;
+	padding: 25px 300px;
+}
