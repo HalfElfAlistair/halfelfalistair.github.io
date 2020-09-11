@@ -100,98 +100,74 @@ a:hover {
 
 .box {
 	text-align: center;
+	padding: 40px;
 }
 
-@media screen and (max-width: 300px) {
+.box:nth-child(odd) {
+    background-color: #DEC4FD;   
+}
+
+.box:nth-child(even) {
+    background-color: #E9D8FD;   
+}
+
+@media screen and (max-width: 700px) {
 	.newgrid {
-		width: 100%;
-	  }
+		display: contents;
+	}
+	.box {
+		padding: 15px;
+	}
 }
 
 .KST {
 	grid-area: 1 / 1 / 1 / span 3;
 }
 
-@media screen and (max-width: 300px) {
-	.KST {
-		width: 100%;
-	  }
-}
-
 .ga {
 	grid-area: 2 / 1 / 2 / 1;
-	padding: 40px;
-	background-color: #CFA0FD;
 }
 .gb {
 	grid-area: 2 / 2 / 2 / 2;
-	padding: 40px;
-	background-color: #DEC4FD;
 }
 .gc {
 	grid-area: 2 / 3 / 2 / 3;
-	padding: 40px;
-	background-color: #E9D8FD;
 }
 .gd {
 	grid-area: 3 / 1 / 3 / 1;
-	padding: 40px;
-	background-color: #E9D8FD;
 }
 .ge {
 	grid-area: 3 / 2 / 3 / 2;
-	padding: 40px;
-	background-color: #CFA0FD;
 }
 .gf {
 	grid-area: 3 / 3 / 3 / 3;
-	padding: 40px;
-	background-color: #DEC4FD;
 }
 .gg {
 	grid-area: 4 / 1 / 4 / 1;
-	padding: 40px;
-	background-color: #DEC4FD;
 }
 .gh {
 	grid-area: 4 / 2 / 4 / 2;
-	padding: 40px;
-	background-color: #E9D8FD;
 }
 .gi {
 	grid-area: 4 / 3 / 4 / 3;
-	padding: 40px;
-	background-color: #CFA0FD;
 }
 .gj {
 	grid-area: 5 / 1 / 5 / 1;
-	padding: 40px;
-	background-color: #CFA0FD;
 }
 .gk {
 	grid-area: 5 / 2 / 5 / 2;
-	padding: 40px;
-	background-color: #DEC4FD;
 }
 .gl {
 	grid-area: 5 / 3 / 5 / 3;
-	padding: 40px;
-	background-color: #E9D8FD;
 }
 .gm {
 	grid-area: 6 / 1 / 6 / 1;
-	padding: 40px;
-	background-color: #E9D8FD;
 }
 .gn {
 	grid-area: 6 / 2 / 6 / 2;
-	padding: 40px;
-	background-color: #CFA0FD;
 }
 .go {
 	grid-area: 6 / 3 / 6 / 3;
-	padding: 40px;
-	background-color: #DEC4FD;
 }
 
 .l {
