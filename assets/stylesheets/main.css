@@ -103,10 +103,42 @@ p {
 	padding-top: 5px;
 }
 
-.c {
+#email-button {
+	text-align: center;
+	padding: 25px 0%;
 }
 
-.c img {
+button {
+	background-color: #80FC03;
+	color: #7f03fc;
+	/*
+	border: 3px #7f03fc solid;
+	*/
+	border-radius: 5px;
+	padding: 20px;
+	width: 244px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+	box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+}
+
+button:hover {
+	background-color: #A6FD4E;
+	/*
+	border: 3px #8520A7 solid;
+	*/
+	color: #8520A7;
+	transition: 600ms;
+	box-shadow: 5px 5px 3px 0 rgba(0,0,0,0.3);
+}
+/*
+button:focus {
+	box-shadow: 10px 10px 10px rgba(127,3,252,0.4), -10px -10px 10px rgba(127,3,252,0.4)	
+}
+*/
+#top-image {
     width: 100%;
 }
 
@@ -147,16 +179,7 @@ p {
 
 .box:nth-child(even) {
     background-color: #E9D8FD;   
-}
-
-@media screen and (max-width: 700px) {
-	.newgrid {
-		display: contents;
-	}
-	.box {
-		padding: 15px;
-	}
-}
+}	
 
 .KST {
 	grid-area: 1 / 1 / 1 / span 3;
@@ -210,4 +233,26 @@ p {
 
 footer {
 	background-color: #E0E0E0;
+}
+
+@media screen and (max-width: 700px) {
+	.newgrid {
+		display: contents;
+	}
+	.box {
+		padding: 15px;
+	}
+	.content {
+		padding: 25px 10%;
+	}
+	#secret {
+		padding: 34px 10%;
+	}
+	#screenshot1 {
+		padding: 2.9% 2.9%;
+		margin: 25px 10%;
+	}
+	button {
+		width: 144px;
+	}
 }
