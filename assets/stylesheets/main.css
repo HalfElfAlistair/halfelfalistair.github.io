@@ -2,27 +2,44 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 	font-size: 18px;
+	/*
+	background: linear-gradient(90deg, #CFFDA0, #E9D8FD 70%);
+	background-color: #E9D8FD;
+	background: linear-gradient(90deg, #E9D8FD, #FFFFFF 20% 80%, #E9D8FD);
+	*/
 }
 
-.social-bar {
+.social {
 	background-color: #C9C9C9;
 	padding: 30px;
 }
 
-.nav-link {
+
+.social ul {
+	position: absolute;
+	right: 50px;
+	top: 3px;
+}
+
+.social ul li {
+	display: inline-block;
+}
+
+.social a {
 	color: #8520A7;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-.nav-link:hover {
+.social a:hover {
 	color: #7f03fc;
+	font-weight: bold;
 	text-decoration: underline;
 }
 
 /*
 
-.nav-link:visited {
+.social a:visited {
 	color: #0E8168;
 	text-decoration: none;
 }
@@ -31,39 +48,27 @@ body {
 
 /*
 
-.social-bar {
+.social {
 	background-color: #424242;
 	padding: 30px;
 }
 
-.nav-link {
+.social a {
 	color: #03FCBA;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-.nav-link:hover {
+.social a:hover {
 	color: #5DF494;
 	text-decoration: underline;
 }
 
-.nav-link:visited {
+.social a:visited {
 	color: #C69CFC;
 	text-decoration: none;
 }
-
 */
-
-nav ul {
-	position: absolute;
-	right: 50px;
-	top: 3px;
-}
-
-nav ul li {
-	display: inline-block;
-}
-
 .content {
 	padding: 25px 30%;
 }
@@ -111,9 +116,6 @@ p {
 button {
 	background-color: #80FC03;
 	color: #7f03fc;
-	/*
-	border: 3px #7f03fc solid;
-	*/
 	border-radius: 5px;
 	padding: 20px;
 	width: 244px;
@@ -126,9 +128,6 @@ button {
 
 button:hover {
 	background-color: #A6FD4E;
-	/*
-	border: 3px #8520A7 solid;
-	*/
 	color: #8520A7;
 	transition: 600ms;
 	box-shadow: 5px 5px 3px 0 rgba(0,0,0,0.3);
@@ -138,6 +137,7 @@ button:focus {
 	box-shadow: 10px 10px 10px rgba(127,3,252,0.4), -10px -10px 10px rgba(127,3,252,0.4)	
 }
 */
+
 #top-image {
     width: 100%;
 }
@@ -152,11 +152,17 @@ button:focus {
 .sep-title {
 	background-color: #E9D8FD;
 	padding: 34px 0%;
+	/*
+	background: linear-gradient(90deg, #D48FEA, #E0ACF1 1%, #E9D8FD 60%)
+	*/
 }
 
 #secret {
 	background-color: #E9D8FD;
 	padding: 34px 30%;
+	/*
+	background: linear-gradient(90deg, #E9D8FD, #CFFDA0 25% 75%, #E9D8FD);
+	*/
 }
 
 .newgrid {
@@ -255,4 +261,9 @@ footer {
 	button {
 		width: 144px;
 	}
+	/*
+	body {
+		background: linear-gradient(90deg, #E9D8FD, #FFFFFF 5% 95%, #E9D8FD);
+	}
+	*/
 }
