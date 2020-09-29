@@ -92,6 +92,7 @@ h1 {
     margin-bottom: 0;
 	text-align: center;
 	padding: 0px 0.7% 25px;
+	border-bottom: 2px #736372 solid;
 }
 
 h2 {
@@ -142,14 +143,9 @@ button:focus {
 }
 
 #screenshot1 {
-	text-align: center;
-	/*
-	background-color: #dce6e1;
-	*/
-	background: linear-gradient(35deg, #e6fecd, #f2e7fd 70%);
-	padding: 30px 2.9%;
-	margin: 25px 27%;
-	border-radius: 3px;
+	width: 550px;
+	height: auto;
+	padding: 20px 0%;
 }
 
 .sep-title {
@@ -217,7 +213,10 @@ button:focus {
 }
 
 .box:nth-child(odd) {
-    background-color: #DEC4FD;   
+	/*
+	background-color: #DEC4FD; 
+	*/
+	background-color: #F1F6EC;
 }
 
 .box:nth-child(even) {
@@ -270,6 +269,12 @@ button:focus {
 	grid-area: 5 / 3 / 5 / 3;
 }
 
+#certificate {
+	width: 550px;
+	height: auto;
+	padding: 20px 0%;
+}
+
 footer {
 	background-color: #F2E7FD;
 	width: 100%;
@@ -317,8 +322,12 @@ footer h2 {
 		padding: 5%;
 	}
 	#screenshot1 {
-		margin: 50px 0%;
-		padding: 5%;
+		width: 100%;
+		height: auto;
+	}
+	#certificate {
+		width: 100%;
+		height: auto;
 	}
 	button {
 		width: 144px;
