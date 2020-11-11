@@ -2,6 +2,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
 	margin: 0;
+	line-height: 1.6;
 }
 
 svg {
@@ -33,6 +34,7 @@ header {
 h1 {
 	margin: 0;
 	color: #F1F5F2;
+	line-height: 1.2;
 }
 
 h2 {
@@ -40,6 +42,7 @@ h2 {
 	margin: 0;
 	text-align: center;
 	padding-bottom: 30px;
+	line-height: 1.2;
 }
 
 h3 {
@@ -48,6 +51,23 @@ h3 {
 
 img {
 	width: 100%;
+}
+
+
+.KST {
+	padding: 20px;
+    background-color: #F1F5F2;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.KST h3 {
+	color: #004C54;
+}
+
+.KST li {
+	color: #525252;
 }
 
 
@@ -62,4 +82,25 @@ img {
 
 #about p {
 	color: #525252;
+}
+
+#knowledge {
+	background-color: #004C54;
+	padding: 30px 20px;
+}
+
+#knowledge h2 {
+	color: #F1F5F2;
+}
+
+#knowledge h3 {
+	margin-top: 0;
+}
+
+#knowledge p {
+	color: #D3E0DF;
+}
+
+#knowledge ul {
+	margin-bottom: 0;
 }
