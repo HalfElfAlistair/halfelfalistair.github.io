@@ -27,7 +27,7 @@ a {
 header {
 	background-color: #004C54;
     text-align: center;
-    color: #D3E0DF;
+    color: #DBDBDB;
     height: 100vh;
 }
 
@@ -40,7 +40,6 @@ h1 {
 h2 {
 	color: #004C54;
 	margin: 0;
-	text-align: center;
 	padding-bottom: 30px;
 	line-height: 1.2;
 }
@@ -53,13 +52,18 @@ img {
 	width: 100%;
 }
 
+footer {
+	background-color: #DBDBDB;
+	padding: 30px 20px;
+}
+
 
 .KST {
 	padding: 20px;
     background-color: #F1F5F2;
 	border-radius: 3px;
 	margin: 20px 0;
-	border: solid 1px #D3E0DF;
+	border: solid 1px #DBDBDB;
 }
 
 .KST h3 {
@@ -76,7 +80,7 @@ img {
 	border-radius: 3px;
 	margin: 20px 0;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-    border: solid 1px #D3E0DF;
+    border: solid 1px #C0C0C0;
     text-align: center;
 }
 
@@ -98,6 +102,10 @@ img {
 
 #about p {
 	color: #525252;
+}
+
+#about img {
+	border-radius: 3px;
 }
 
 #knowledge {
