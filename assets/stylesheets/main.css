@@ -142,3 +142,62 @@ footer,
 }
 
 
+
+@media screen and (min-width: 321px) {
+	
+	.project-box {
+		width: 280px;
+	}
+
+	.KST {
+		width: 240px;
+	}
+
+	#knowledge,
+	#projects {
+		padding: 30px auto;
+	}
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 645px) {
+
+	.KST,
+	.project-box {
+		position: relative;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, 0);
+	}
+}
+
+
+@media screen and (min-width: 646px) {
+	.container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+
+	.KST,
+	.project-box {
+		position: static;
+		margin: 10px 0;
+	}
+
+	#knowledge_box,
+	#LP,
+	#TD {
+		margin-right: 10px;
+	}
+
+	#tools,
+	#SF,
+	#TP {
+		margin-left: 10px;
+	}
+
+
+	)
+}
+
