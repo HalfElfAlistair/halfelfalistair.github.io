@@ -197,7 +197,103 @@ footer,
 		margin-left: 10px;
 	}
 
+	footer,
+	#about,
+	#projects,
+	#knowledge {
+		/*
+		width: 606px;
+		*/
+		padding: 30px auto;
 
-	)
+		/*
+		margin: 0 auto;
+		*/
+	}
+
+	.content {
+		width: 606px;
+		position: relative;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, 0);
+	}
+
+	
 }
 
+
+@media screen and (min-width: 700px) {
+
+	h1 {
+		font-size: 34px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	p,
+	ul {
+		font-size: 17px;
+	}
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+	
+	#top-img {
+		max-width: 769px;
+		position: relative;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, 0);
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	
+	#top-img {
+		max-width: 100%;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 60px;
+	}
+
+	#intro {
+		position: relative;
+		width: 25%;
+		z-index: 1;
+		background-color: #004C54;
+		left: 53%;
+		top: 11%;
+		border-radius: 3px;
+	}
+}
+
+
+@media screen and (min-width: 1300px) {
+
+	h1 {
+		font-size: 36px;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+	h3 {
+		font-size: 21px;
+	}
+
+	p,
+	ul {
+		font-size: 18px;
+	}
+}
