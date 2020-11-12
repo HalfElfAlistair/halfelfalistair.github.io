@@ -15,8 +15,15 @@ abbr {
 
 nav {
 	height: 60px;
-    background-color: #D3E0DF;
-    width: 100%;
+    background-color: #1A1A1A	;
+	width: 100%;
+	font-weight: bold;
+    text-align: center;
+}
+
+nav a {
+	color: #C0C0C0;
+	padding: 0 1%;
 }
 
 a {
@@ -27,7 +34,7 @@ a {
 header {
 	background-color: #004C54;
     text-align: center;
-    color: #DBDBDB;
+    color: #C0C0C0;
     height: 100vh;
 }
 
@@ -53,17 +60,22 @@ img {
 }
 
 footer {
-	background-color: #DBDBDB;
-	padding: 30px 20px;
+	background-color: #C0C0C0;
 }
 
+footer,
+#about,
+#projects,
+#knowledge {
+	padding: 30px 20px;
+}
 
 .KST {
 	padding: 20px;
     background-color: #F1F5F2;
 	border-radius: 3px;
 	margin: 20px 0;
-	border: solid 1px #DBDBDB;
+	border: solid 1px #C0C0C0;
 }
 
 .KST h3 {
@@ -97,7 +109,6 @@ footer {
 #about,
 #projects {
 	background-color: #FCFCFC;
-	padding: 30px 20px;
 }
 
 #about p {
@@ -110,19 +121,15 @@ footer {
 
 #knowledge {
 	background-color: #004C54;
-	padding: 30px 20px;
 }
 
-#knowledge h2 {
+#knowledge h2,
+#knowledge p {
 	color: #F1F5F2;
 }
 
 #knowledge h3 {
 	margin-top: 0;
-}
-
-#knowledge p {
-	color: #D3E0DF;
 }
 
 #knowledge ul {
@@ -133,3 +140,5 @@ footer {
 	margin-top: 0;
 	font-weight: bold;
 }
+
+
