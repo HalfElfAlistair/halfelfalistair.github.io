@@ -71,8 +71,8 @@ Matt Thomas
 
 ## Acknowledgments
 
-### Matt Thomas
-It was Matt who introduced me to coding and has been an incredible help throughout my journey. He's an excellent friend and a brilliant developer. Go check out his [insidae website](https://insidae.com/).
+### [Matt Thomas](https://insidae.com/)
+It was Matt who introduced me to coding and has been an incredible help throughout my journey. He's an excellent friend and a brilliant developer. Go check out his insidae website.
 
 ### [The Philadelphia Eagles](https://www.philadelphiaeagles.com/)
 After trying out various colour schemes for this page I was still struggling to find one I was happy with. While watching the NFL show one night, it dawned on me that the dark green used by the Eagles was what I needed. Interestingly the colour (Midnight green) is additionally known as Eagle green because of the team. I might try using sports jerseys as design inspiration in future.
