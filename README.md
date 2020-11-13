@@ -40,9 +40,11 @@ My first repo, also a GitHub pages website. It's a page that should give you a b
 
 Running this page locally should be nice and easy!
 
-### Prerequisites: None
+### Prerequisites
+None
 
-### Running: Once you've downloaded and unzipped the repo file, simply open up the index.html in your browser. Or just follow this link [https://halfelfalistair.github.io/](https://halfelfalistair.github.io/).
+### Running
+Once you've downloaded and unzipped the repo file, simply open up the index.html in your browser. Or just follow this link [https://halfelfalistair.github.io/](https://halfelfalistair.github.io/).
 
 
 ## Built With
