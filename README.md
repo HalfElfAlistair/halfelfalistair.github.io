@@ -89,7 +89,8 @@ Matt suggested I check out an article written by Tania to help with my design de
 ### [WebAIM.org](https://webaim.org/)
 Their colour contrast checker is a go to for me every time so I can ensure my work is readable.
 
-
+### [FontAwesome](https://fontawesome.com/)
+I acquired my social icons from here.
 
 ## Author Notes
 
