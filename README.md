@@ -74,7 +74,7 @@ Matt Thomas
 ### [Matt Thomas](https://insidae.com/)
 It was Matt who introduced me to coding and has been an incredible help throughout my journey. Matt also took the picture I use in my header (the guy is super multi talented). He's an excellent friend and a brilliant developer. Go check out his insidae website.
 
-### [The Philadelphia Eagles](https://www.philadelphiaeagles.com/)
+### The Philadelphia Eagles
 After trying out various colour schemes for this page I was still struggling to find one I was happy with. While watching the NFL show one night, it dawned on me that the dark green used by the Eagles was what I needed. Interestingly the colour (Midnight green) is additionally known as Eagle green because of the team. I might try using sports jerseys as design inspiration in future.
 
 ### [CodeAcademy](https://www.codecademy.com/)
@@ -85,6 +85,9 @@ The educational and practical opportunity to develop my coding skills.
 
 ### [Tania Rascia](https://www.taniarascia.com/)
 Matt suggested I check out an article written by Tania to help with my design decisions and it was a great call. This page looks a lot better now than it did before I read their work!
+
+### [WS3Schools](https://www.w3schools.com/)
+Their 'how to' guide for creating a responsive hamburger menu was really useful in helping me create one for my page but also helped improve my understanding of JavaScript.
 
 ### [WebAIM.org](https://webaim.org/)
 Their colour contrast checker is a go to for me every time so I can ensure my work is readable.
