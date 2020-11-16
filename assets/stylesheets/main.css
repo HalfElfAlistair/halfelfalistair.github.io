@@ -20,13 +20,19 @@ abbr {
 
 nav {
 	height: 60px;
-    background-color: #3D3D3D;
+    background-color: #1A1A1A	;
 	width: 100%;
 	font-weight: bold;
     text-align: center;
 }
 
+nav.switch {
+	position: relative;
+	padding-bottom: 125px;
+}
+
 nav a {
+	display: none;
 	color: #C0C0C0;
 	padding: 0 1%;
 	font-size: 18px;
@@ -36,6 +42,28 @@ nav a {
 
 nav a:hover {
 	color: #F1F5F2;
+}
+
+nav.switch a {
+	display: block;
+	text-align: left;
+	position: relative;
+	top: 60px;
+	left: 13px;
+}
+
+nav a.ham-menu {
+	display: block;
+	float: left;
+	position: relative;
+    top: 7px;
+    left: 13px;
+}
+
+nav.switch a.ham-menu {
+	position: absolute;
+	top: 7px;
+	left: 13px;
 }
 
 a {
@@ -173,6 +201,25 @@ footer,
 	#knowledge,
 	#projects {
 		padding: 30px auto;
+	}
+}
+
+
+@media screen and (min-width: 400px) {
+	nav.switch {
+		padding-bottom: 0;
+		height: 60px;
+	}
+
+	nav a.ham-menu,
+	nav.switch a.ham-menu {
+		display: none;
+	}
+
+	nav.switch a,
+	nav a {
+		display: inline-block;
+		top: 15px;
 	}
 }
 
