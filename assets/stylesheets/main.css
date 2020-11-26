@@ -57,12 +57,12 @@ nav a.ham-menu {
 	display: block;
 	position: relative;
     top: 7px;
-    left: -129px;
+    left: 0;
+    float: left;
 }
 
 nav.switch a.ham-menu {
 	position: absolute;
-    left: -1px;
 }
 
 a {
