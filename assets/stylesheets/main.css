@@ -28,7 +28,7 @@ nav {
 
 nav.switch {
 	position: relative;
-	padding-bottom: 125px;
+	padding-bottom: 196px;
 }
 
 nav a {
@@ -50,20 +50,19 @@ nav.switch a {
 	position: relative;
 	top: 60px;
 	left: 13px;
+	padding-bottom: 20px;
 }
 
 nav a.ham-menu {
 	display: block;
-	float: left;
 	position: relative;
     top: 7px;
-    left: 13px;
+    left: -129px;
 }
 
 nav.switch a.ham-menu {
 	position: absolute;
-	top: 7px;
-	left: 13px;
+    left: -1px;
 }
 
 a {
