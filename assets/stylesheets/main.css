@@ -7,7 +7,7 @@ body {
 
 svg {
 	width: 40px;
-    padding: 0 10px;
+    padding: 0 20px 0 0;
 }
 
 svg:hover {
@@ -151,8 +151,6 @@ footer,
 	border-radius: 0 0 3px 3px;
 }
 
-
-
 #intro {
 	padding: 10vh 3vw;
 }
@@ -191,10 +189,6 @@ footer,
 #projects p {
 	margin-top: 0;
 	font-weight: bold;
-}
-
-#icons svg:first-child {
-	padding-left: 0;
 }
 
 
