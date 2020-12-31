@@ -1,4 +1,4 @@
-# FCC-Project-Landing-Page
+# halfelfalistair.github.io
 
 A page operating as a portfolio of my work as well as offering a little bit about me generally.
 
@@ -57,7 +57,7 @@ Once you've downloaded and unzipped the repo file, simply open up the index.html
 
 Alistair Sinclair-Smith
 
-Email: [ajss90@hotmail.co.uk](ajss90@hotmail.co.uk)
+Email: [alistairjss90@gmail.com](alistairjss90@gmail.com)
 
 GitHub: [HalfElfAlistair](https://github.com/HalfElfAlistair)
 
