@@ -12,6 +12,7 @@ svg {
 
 svg:hover {
 	opacity: 70%;
+	width: 45px;
 }
 
 abbr {
@@ -42,6 +43,7 @@ nav a {
 
 nav a:hover {
 	color: #F1F5F2;
+	text-decoration: underline;
 }
 
 nav.switch a {
@@ -68,10 +70,12 @@ nav.switch a.ham-menu {
 a {
 	color: #004C54;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
 	font-weight: bold;
+	text-decoration: underline;
 }
 
 header {
@@ -270,13 +274,13 @@ footer,
 		margin: 10px 0;
 	}
 
-	#knowledge_box,
+	#knowledge_box_1,
 	#LP,
 	#TD {
 		margin-right: 10px;
 	}
 
-	#tools,
+	#knowledge_box_2,
 	#SF,
 	#TP {
 		margin-left: 10px;
