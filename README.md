@@ -35,6 +35,7 @@ My first repo, also a GitHub pages website. It's a page that should give you a b
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## Launch
 
@@ -50,6 +51,8 @@ Once you've downloaded and unzipped the repo file, simply open up the index.html
 ## Built With
 
 - Visual Studio Code
+
+- Node.js
 
 - Chrome Devtools
 
