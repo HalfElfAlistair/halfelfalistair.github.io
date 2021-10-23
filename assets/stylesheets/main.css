@@ -34,7 +34,7 @@ nav svg {
     left: 13px;
 }
 
-nav.switch {
+nav.extend {
 	position: relative;
 	padding-bottom: 196px;
 }
@@ -53,7 +53,7 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-nav.switch a {
+nav.extend a {
 	display: block;
 	text-align: left;
 	position: relative;
@@ -70,7 +70,7 @@ nav a.ham-menu {
     float: left;
 }
 
-nav.switch a.ham-menu {
+nav.extend a.ham-menu {
 	position: absolute;
 }
 
@@ -221,17 +221,17 @@ footer,
 
 
 @media only screen and (min-width: 400px) {
-	nav.switch {
+	nav.extend {
 		padding-bottom: 0;
 		height: 60px;
 	}
 
 	nav a.ham-menu,
-	nav.switch a.ham-menu {
+	nav.extend a.ham-menu {
 		display: none;
 	}
 
-	nav.switch a,
+	nav.extend a,
 	nav a {
 		display: inline-block;
 		top: 15px;
