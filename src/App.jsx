@@ -8,6 +8,10 @@ import { Portfolio } from './pages/Portfolio';
 import { Posts } from './pages/Posts';
 import { About } from './pages/About';
 import { Footer } from './components/Footer';
+// import { RouterProvider, createRouter } from '@tanstack/react-router';
+// import { routeTree } from './routeTree.gen';
+
+// const router = createRouter({ routeTree });
 
 function App() {
     return (
@@ -15,7 +19,8 @@ function App() {
             <div className="gradient-bg" />
             <div className="scroll-sentinel" />
             <Nav />
-            <Home />
+            {/* <RouterProvider router={router} /> */}
+            {/* <Home /> */}
             {/* <Portfolio /> */}
             {/* <Posts /> */}
             {/* <About /> */}

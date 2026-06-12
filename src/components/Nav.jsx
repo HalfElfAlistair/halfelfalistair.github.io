@@ -3,11 +3,29 @@ import { useState, useEffect } from 'react';
 
 export const Nav = () => {
     const navLinks = [
+        'Home',
         'About',
-        'Knowledge',
-        'Projects',
-        'Contact',
+        'Portfolio',
+        'Posts'
     ]
+    // const navLinks = [
+    //     {
+    //         text: "Home",
+    //         // path: "/"
+    //     },
+    //     {
+    //         text: "About",
+    //         // path: "/about"
+    //     },
+    //     {
+    //         text: "Portfolio",
+    //         // path: "/portfolio"
+    //     },
+    //     {
+    //         text: "Posts",
+    //         // path: "/Posts"
+    //     },
+    // ]
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const handleResize = () => {
@@ -39,9 +57,9 @@ export const Nav = () => {
         <nav className={`${displayTextLinks ? "nav-with-links" : "nav-with-burger"} ${opaqueNav ? "opaqueNav" : "transparentNav"}`}>
             {
                 displayTextLinks ? (
-                    [1, 2, 3, 4].map(n => {
+                    navLinks.map(text => {
                         return (
-                            <a key={n} className="nav-link">Link</a>
+                            <a key={text} href={text === "Home" ? "/" : `/${text.toLowerCase()}`} className="nav-link">{text}</a>
                         )
                     })
                 ) : (
