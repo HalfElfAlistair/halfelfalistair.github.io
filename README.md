@@ -21,7 +21,7 @@ A page operating as a portfolio of my work as well as offering a little bit abou
 
 ## Introduction
 
-My first repo, also a GitHub pages website. It's a page that should give you a better idea of who I am and what I've done.
+My first repo, also a GitHub pages website. It's a page that should give you a better idea of who I am and what I've done. It was originally built as a static HTML & CSS page, back in 2019/2020. Having since learned and worked in React for a few years, I felt it would be right to convert it to that in 2025.
 
 
 ### Aims
@@ -33,8 +33,10 @@ My first repo, also a GitHub pages website. It's a page that should give you a b
 
 ## Technologies
 
-- HTML5
-- CSS3
+- JS
+- React
+- HTML
+- CSS
 
 ## Launch
 
@@ -55,7 +57,7 @@ Running this page locally should be nice and easy!
 
 Alistair Sinclair-Smith
 
-Email: [ajss90@hotmail.co.uk](ajss90@hotmail.co.uk)
+Email: [alistairjss90@gmail.com](alistairjss90@gmail.com)
 
 GitHub: [HalfElfAlistair](https://github.com/HalfElfAlistair)
 
@@ -72,6 +74,9 @@ Matt Thomas
 ### Matt Thomas
 It was Matt who introduced me to coding and has been an incredible help throughout my journey. He's an excellent friend and a brilliant developer. Go check out his [insidae website](https://insidae.com/).
 
+### [Northcoders](https://www.northcoders.com/)
+While I learned the basics from Matt, plus CodeAcademy and FreeCodeCamp (mentioned below), I eventually embarked on a course at Northcoders to further advance my knowledge and help me on my career path. Looking back on where I am now and what I knew (or rather didn't) before starting with them, it's clear they've been an essential part of my development.
+
 ### [The Philadelphia Eagles](https://www.philadelphiaeagles.com/)
 After trying out various colour schemes for this page I was still struggling to find one I was happy with. While watching the NFL show one night, it dawned on me that the dark green used by the Eagles was what I needed. Interestingly the colour (Midnight green) is additionally known as Eagle green because of the team. I might try using sports jerseys as design inspiration in future.
 
@@ -86,9 +91,3 @@ Matt suggested I check out an article written by Tania to help with my design de
 
 ### [WebAIM.org](https://webaim.org/)
 Their colour contrast checker is a go to for me every time so I can ensure my work is readable.
-
-
-
-## Author Notes
-
-
