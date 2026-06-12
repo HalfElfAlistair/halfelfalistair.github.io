@@ -1,3 +1,7 @@
 .DS_Store
 .env.local
 .env
+deploy.js
+node_modules
+node_modules
+node_modules/
