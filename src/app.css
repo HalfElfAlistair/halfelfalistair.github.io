@@ -291,13 +291,14 @@ footer a {
     height: 40%;
     width: 90%;
     background: linear-gradient(270deg, rgba(0, 250, 150, 1) 0%, rgba(0, 76, 84, 1) 100%);
-    border-radius: 12px;
+    border-radius: 18px;
 }
 
 .thumbnail-container img {
     height: 90%;
     width: 90%;
-    border-radius: 18px;
+    padding: 5%;
+    border-radius: 24px;
 }
 
 .card-title-container {
