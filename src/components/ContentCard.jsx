@@ -21,7 +21,7 @@ export const ContentCard = ({ parent, title, description, image, alt, links }) =
             <div className={`card-links ${oneLink ? "one-link" : "two-links"}`}>
                 {links.map((path, i) => {
                     return (
-                        <a key={i} href={path} className={useGitHubIcon(i) ? "" : "btn"}>
+                        <a key={i} href={path} className={useGitHubIcon(i) ? "" : "btn"} aria-label={useGitHubIcon(i) ? `Link to GitHub repository for ${title}` : ""}>
                             {useGitHubIcon(i) ? (
                                 <GitHub fillColour="#F8F8FF" />
                             ) : (
