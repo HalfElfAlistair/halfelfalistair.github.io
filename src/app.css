@@ -12,14 +12,15 @@ a {
 
 svg {
     width: 40px;
-    /* margin: 0 20px 0 0; */
+}
+
+svg:hover {
+    opacity: 80%;
 }
 
 abbr {
     text-decoration: none !important;
 }
-
-/* Redesign classes vvv */
 
 h1 {
     font-size: 36px;
@@ -66,7 +67,6 @@ h1 {
     max-width: 412px;
 }
 
-/* temporary delete when necessary */
 .barrier {
     height: 10%;
     width: 100vw;
