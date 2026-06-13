@@ -55,6 +55,7 @@ export const Nav = () => {
                             <button
                                 className="btn-transparent hamburger-container"
                                 onClick={() => toggleNavDropdown()}
+                                aria-label={`${NavDropdownOpen ? "Close" : "Open"} navigation dropdown`}
                             >
                                 {NavDropdownOpen ? (
                                     <Cross fillColour={opaqueNav ? "#004C54" : "#F8F8FF"} />

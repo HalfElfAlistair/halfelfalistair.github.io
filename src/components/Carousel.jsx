@@ -29,6 +29,7 @@ export const Carousel = ({ images }) => {
             <div
                 className="carousel-arrow-container carousel-arrow-left"
                 onClick={() => decreaseImageIndex()}
+                aria-label="Select previous image"
             >
                 <ArrowLeft fillColour="#F8F8FF" />
             </div>
@@ -38,6 +39,7 @@ export const Carousel = ({ images }) => {
             <div
                 className="carousel-arrow-container carousel-arrow-right"
                 onClick={() => increaseImageIndex()}
+                aria-label="Select next image"
             >
                 <ArrowRight fillColour="#F8F8FF" />
             </div>
