@@ -95,7 +95,7 @@ export const About = () => {
                     {petsTextContent.map((text, i) => {
                         return <p key={i} className="personal-text">{text}</p>
                     })}
-                    <CTA />
+                    <CTA opaqueNav={false} />
                     {interestsContent.map((text, i) => {
                         return <p key={i} className="personal-text">{text}</p>
                     })}
