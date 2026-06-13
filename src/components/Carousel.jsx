@@ -26,23 +26,23 @@ export const Carousel = ({ images }) => {
 
     return (
         <div className="carousel">
-            <div
-                className="carousel-arrow-container carousel-arrow-left"
+            <button
+                className="btn-transparent carousel-arrow-container carousel-arrow-left"
                 onClick={() => decreaseImageIndex()}
                 aria-label="Select previous image"
             >
                 <ArrowLeft fillColour="#F8F8FF" />
-            </div>
+            </button>
             <div className="carousel-image-container">
                 <img src={src} alt={alt} />
             </div>
-            <div
-                className="carousel-arrow-container carousel-arrow-right"
-                onClick={() => increaseImageIndex()}
-                aria-label="Select next image"
+            <button
+                className="btn-transparent carousel-arrow-container carousel-arrow-left"
+                onClick={() => decreaseImageIndex()}
+                aria-label="Select previous image"
             >
                 <ArrowRight fillColour="#F8F8FF" />
-            </div>
+            </button>
         </div>
     )
 }
