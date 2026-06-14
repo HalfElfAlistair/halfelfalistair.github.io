@@ -20,7 +20,6 @@ export const Footer = () => {
                 <h2>Get in touch with Alistair Sinclair-Smith</h2>
                 <p>Drop me an email and let's discuss how I can help you!</p>
                 <p>Email: <a href="mailto:alistairjss90@gmail.com" target="_blank" rel="noopener">alistairjss90@gmail.com</a></p>
-                <p>Or check me out on social media.</p>
                 <div className="footer-icons">
                     {socials.map((social, i) => {
                         const { path, label, icon } = social;
