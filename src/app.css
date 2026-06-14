@@ -142,6 +142,9 @@ nav {
 
 .nav-link-white {
     color: #004C54;
+}
+
+.nav-links-vertical .nav-link-white {
     border-bottom: solid 1px #EBEBFF;
 }
 
@@ -327,7 +330,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: rgba(0, 250, 150, 1);
+    background: #00FA96;
     border-radius: 10px;
 }
 
@@ -476,7 +479,7 @@ body::-webkit-scrollbar-track {
 .heading-bullet {
     width: 10px;
     height: 10px;
-    background-color: rgba(0, 250, 150, 1);
+    background-color: #00FA96;
     border-radius: 10px;
 }
 
@@ -484,6 +487,8 @@ body::-webkit-scrollbar-track {
     color: #F8F8FF;
     font-size: 20px;
     font-weight: normal;
+    margin: 0 0 8px;
+
 }
 
 .skills-container {
@@ -496,7 +501,9 @@ body::-webkit-scrollbar-track {
 .skill {
     padding: 8px 16px;
     border: solid 1px #4F4F4F;
-    border-radius: 12px;
+    border-radius: 10px;
+    flex-grow: 1;
+    text-align: center;
 }
 
 .skill p {
