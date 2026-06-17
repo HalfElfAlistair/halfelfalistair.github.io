@@ -65,12 +65,12 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 412px;
+    padding: 0 16px;
 }
 
 .barrier {
     height: 10%;
-    width: 100vw;
+    width: 100%;
 }
 
 .personal-bio {
@@ -79,7 +79,6 @@ h1 {
 
 .content {
     height: 80%;
-    width: 100vw;
     flex-wrap: wrap;
     padding-bottom: 48px;
 }
@@ -430,41 +429,13 @@ body::-webkit-scrollbar-track {
     color: #F8F8FF;
 }
 
-.vertical-one-column {
-    max-width: 412px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0 16px;
-}
-
-.vertical-one-column-img-container {
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.vertical-one-column-img-container img {
-    height: 300px;
-}
-
-.vertical-one-column-heading-container,
-.vertical-one-column-text-container {
-    color: #F8F8FF;
-}
-
-.skills,
-.personal {
+.skills {
     width: 100%;
-    max-width: 412px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
-    padding: 16px;
 }
-
 
 .skills-card {
     width: 90%;
@@ -569,7 +540,7 @@ body::-webkit-scrollbar-track {
 
 .personal-text {
     color: #F8F8FF;
-    margin: 0;
+    margin: 16px 0;
 }
 
 .cta-container {
@@ -586,7 +557,11 @@ body::-webkit-scrollbar-track {
 
 .one-column,
 .two-columns,
-.one-column a {
+.professional-skills {
+    color: #F8F8FF;
+}
+
+.text-link {
     color: #F8F8FF;
 }
 
@@ -623,6 +598,18 @@ body::-webkit-scrollbar-track {
     font-weight: 600;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-column {
+    width: 100%;
+}
+
+.professional-skills {
+    align-items: start;
+}
+
 @media only screen and (min-width: 500px) {
 
     .home,
@@ -638,10 +625,15 @@ body::-webkit-scrollbar-track {
     }
 
     .personal-bio,
-    .vertical-one-column,
     .footer-container,
-    .article-container {
+    .article-container,
+    .about-content,
+    .cards-Layout {
         width: 468px;
+    }
+
+    .cards-Layout {
+        margin: auto;
     }
 
     .two-columns {
@@ -657,10 +649,16 @@ body::-webkit-scrollbar-track {
 @media only screen and (min-width: 800px) {
 
     .personal-bio,
-    .vertical-one-column,
     .footer-container,
-    .article-container {
+    .article-container,
+    .about-content {
         width: 672px;
+    }
+
+    .professional-skills {
+        display: flex;
+        align-items: start;
+        gap: 32px;
     }
 
     .two-columns {
@@ -670,5 +668,21 @@ body::-webkit-scrollbar-track {
 
     .two-columns img {
         width: 40%;
+    }
+
+    .skills {
+        gap: 56px;
+    }
+}
+
+@media only screen and (min-width: 872px) {
+    .cards-Layout {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        width: 872px;
+        max-width: 872px;
+        margin: auto;
     }
 }

@@ -20,20 +20,22 @@ export const Posts = () => {
     return (
         <main className="posts">
             <Heading heading="Posts" />
-            {articles.map((article, i) => {
-                const { id } = article;
-                return (
-                    <Content
-                        key={id}
-                        parent="Posts"
-                        content={article}
-                        contentIDs={articleIDs}
-                        contentIndex={i}
-                        contentsCount={articlesCount}
-                        id={id}
-                    />
-                )
-            })}
+            <section className="cards-Layout">
+                {articles.map((article, i) => {
+                    const { id } = article;
+                    return (
+                        <Content
+                            key={id}
+                            parent="Posts"
+                            content={article}
+                            contentIDs={articleIDs}
+                            contentIndex={i}
+                            contentsCount={articlesCount}
+                            id={id}
+                        />
+                    )
+                })}
+            </section>
         </main>
     )
 }

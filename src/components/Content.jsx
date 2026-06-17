@@ -7,7 +7,8 @@ export const Content = ({ parent, content, contentIDs, contentIndex, contentsCou
     const topLevel = contentIndex === 0;
 
     return (
-        <section key={id} id={id} className="content flex-center">
+        // <section key={id} id={id} className="content flex-center">
+        <section key={id} id={id} className="content">
             <div className="barrier" />
             <ContentCard
                 parent={parent}

@@ -54,21 +54,22 @@ export const Portfolio = () => {
     return (
         <main className="portfolio">
             <Heading heading="Portfolio" />
-            <div className="barrier" />
-            {projects.map((project, i) => {
-                const { id } = project;
-                return (
-                    <Content
-                        key={id}
-                        parent="Portfolio"
-                        content={project}
-                        contentIDs={projectIDs}
-                        contentIndex={i}
-                        contentsCount={projectsCount}
-                        id={id}
-                    />
-                )
-            })}
+            <section className="cards-Layout">
+                {projects.map((project, i) => {
+                    const { id } = project;
+                    return (
+                        <Content
+                            key={id}
+                            parent="Portfolio"
+                            content={project}
+                            contentIDs={projectIDs}
+                            contentIndex={i}
+                            contentsCount={projectsCount}
+                            id={id}
+                        />
+                    )
+                })}
+            </section>
         </main>
     )
 }

@@ -1,4 +1,3 @@
-import { VerticalOneColumn } from '../components/ContentFormats/VerticalOneColumn';
 import aliPhoto from '../images/aliPhoto.jpg';
 import { SkillsCard } from '../components/SkillsCard';
 import { Carousel } from '../components/Carousel';
@@ -74,31 +73,42 @@ export const About = () => {
                 <h1>About me</h1>
             </div>
             <div className="about-content">
-                <VerticalOneColumn image={aliPhoto} alt="picture of me" heading="Professional" textContent={textContentOne} />
-                <section className="skills">
-                    <div className="sub-heading-container flex-center">
-                        <h2>Skills</h2>
+                <section>
+                    <div className="one-column">
+                        <img src={aliPhoto} alt="picture of me at a friends apartment." />
                     </div>
-                    {skillsList.map(section => {
-                        const { heading, skills } = section;
-                        return <SkillsCard key={heading} heading={heading} skills={skills} />
-                    })}
+
+                    <div className="professional-skills">
+                        <div className="text-column">
+                            <h2>Professional</h2>
+                            {textContentOne.map((text, i) => {
+                                return (
+                                    <p key={i}>{text}</p>
+                                )
+                            })}
+                        </div>
+                        <div className="skills">
+                            <h2>Skills</h2>
+                            {skillsList.map(section => {
+                                const { heading, skills } = section;
+                                return <SkillsCard key={heading} heading={heading} skills={skills} />
+                            })}
+                        </div>
+                    </div>
                 </section>
                 <section className="personal">
-                    <div className="sub-heading-container flex-center">
+                    <div className="one-column">
                         <h2>Personal</h2>
-                    </div>
-                    <div className="subtext-container">
                         <p>I'll waffle on about myself a little further down, but I know you're all really here for the pets gallery so I'll get on with that first.</p>
+                        <Carousel images={images} />
+                        {petsTextContent.map((text, i) => {
+                            return <p key={i} className="personal-text">{text}</p>
+                        })}
+                        <CTA opaqueNav={false} />
+                        {interestsContent.map((text, i) => {
+                            return <p key={i} className="personal-text">{text}</p>
+                        })}
                     </div>
-                    <Carousel images={images} />
-                    {petsTextContent.map((text, i) => {
-                        return <p key={i} className="personal-text">{text}</p>
-                    })}
-                    <CTA opaqueNav={false} />
-                    {interestsContent.map((text, i) => {
-                        return <p key={i} className="personal-text">{text}</p>
-                    })}
                 </section>
             </div>
         </main>
