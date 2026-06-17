@@ -6,11 +6,11 @@ export const Posts = () => {
         {
             title: "Website Redesign",
             id: "website-redesign",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum in massa ut aliquam. Proin sodales luctus lacus quis commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum in massa ut aliquam. Proin sodales luctus lacus quis commodo.",
+            description: "An article explaining the redesign process for this site, where I learned to use Figma as an exploration and guidance tool.",
             image: figmaScreenshot1,
-            alt: "Lorem ipsum dolor sit amet",
+            alt: "An image of some empty design layouts for my site, from figma.",
             links: [
-                `https://halfelfalistair.github.io/posts/website-redesign`
+                `https://halfelfalistair.netlify.app/posts/website-redesign-with-figma`
             ]
         }
     ]
