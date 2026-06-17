@@ -580,7 +580,8 @@ body::-webkit-scrollbar-track {
 }
 
 .one-column,
-.two-columns {
+.two-columns,
+.one-column a {
     color: #F8F8FF;
 }
 
@@ -598,6 +599,14 @@ body::-webkit-scrollbar-track {
     text-align: center;
     padding: 16px 0;
     font-style: italic;
+}
+
+.one-column a {
+    font-weight: 800;
+}
+
+.one-column a:hover {
+    opacity: 80%;
 }
 
 @media only screen and (min-width: 500px) {
