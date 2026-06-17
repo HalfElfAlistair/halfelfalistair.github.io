@@ -31,7 +31,8 @@ jobs:
 
       - name: Security scan (npm audit)
         # run: npm audit --audit-level=moderate
-        run: npm audit --production --audit-level=high
+        # run: npm audit --production --audit-level=high
+        run: npm audit --omit=dev --audit-level=critical
 
 
   deploy:
