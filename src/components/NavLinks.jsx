@@ -1,3 +1,4 @@
+import { Link } from '@tanstack/react-router';
 export const NavLinks = ({ horizontal, opaqueNav }) => {
     const navLinks = [
         'Home',
@@ -9,7 +10,12 @@ export const NavLinks = ({ horizontal, opaqueNav }) => {
         <div className={`nav-links ${horizontal ? "nav-links-horizontal" : "nav-links-vertical"}`}>
             {navLinks.map(text => {
                 return (
-                    <a key={text} href={text === "Home" ? "/" : `/${text.toLowerCase()}`} className={`nav-link ${opaqueNav ? "nav-link-white" : "nav-link-green"}`}>{text}</a>
+                    <Link
+                        to={`/${text === "Home" ? "" : text.toLowerCase()}`}
+                        className={`nav-link ${opaqueNav ? "nav-link-white" : "nav-link-green"}`}
+                    >
+                        {text}
+                    </Link>
                 )
             })}
         </div>

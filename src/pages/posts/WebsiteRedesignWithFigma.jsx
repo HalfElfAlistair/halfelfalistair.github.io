@@ -4,6 +4,7 @@ import figmaWeddingInvitation from '../../images/articles/website-redesign-with-
 import figmaGuideImage from '../../images/articles/website-redesign-with-figma/figma-guide-image.png';
 import projectCardDesign from '../../images/articles/website-redesign-with-figma/project-card-design.png';
 import aboutPageDesigns from '../../images/articles/website-redesign-with-figma/about-page-designs.png';
+import { Link } from '@tanstack/react-router';
 
 
 export const WebsiteRedesignWithFigma = () => {
@@ -21,9 +22,9 @@ export const WebsiteRedesignWithFigma = () => {
                         "When you’re surrounded by talented designers, it’s easy to assume ideas should come naturally."
                     </p>
 
-                    <p>For a while, I’d been stuck in a bit of a design block. I’d scroll through incredible portfolios, admire the work shared in the <a href="https://persona.studio/" target="_blank" rel="noopener">Persona</a> Slack group (which I’ve been fortunate to be a part of while at <a href="https://boomerang-hr.com/" target="_blank" rel="noopener">Boomerang</a>), and come away feeling inspired, but also completely out of my depth. When you’re surrounded by talented designers, it’s easy to assume ideas should come naturally. Mine didn’t.</p>
+                    <p>For a while, I’d been stuck in a bit of a design block. I’d scroll through incredible portfolios, admire the work shared in the <Link to="https://persona.studio/" target="_blank" rel="noopener">Persona</Link> Slack group (which I’ve been fortunate to be a part of while at <Link to="https://boomerang-hr.com/" target="_blank" rel="noopener">Boomerang</Link>), and come away feeling inspired, but also completely out of my depth. When you’re surrounded by talented designers, it’s easy to assume ideas should come naturally. Mine didn’t.</p>
 
-                    <p>Eventually, I realised I was focusing too much on the results of great designers rather than their process. Developers (myself included) often jump straight into devtools or wireframes, but designers tend to think more deliberately. I kept noticing <a href="https://www.figma.com/" target="_blank" rel="noopener">Figma</a> pop up in their workflows, so I decided to give it a proper try before diving back into VS Code.</p>
+                    <p>Eventually, I realised I was focusing too much on the results of great designers rather than their process. Developers (myself included) often jump straight into devtools or wireframes, but designers tend to think more deliberately. I kept noticing <Link to="https://www.figma.com/" target="_blank" rel="noopener">Figma</Link> pop up in their workflows, so I decided to give it a proper try before diving back into VS Code.</p>
                 </section>
 
                 <section className="two-columns">
@@ -32,7 +33,7 @@ export const WebsiteRedesignWithFigma = () => {
                 </section>
 
                 <section className="one-column">
-                    <p><a href="https://help.figma.com/hc/en-us/sections/30880632542743-Figma-Design-for-beginners" target="_blank" rel="noopener">Figma’s beginner tutorial</a> is surprisingly solid. It walks you through frames, text, auto layout, icon design, components, and even basic interactions (though the free plan limits some of that). A couple of steps were a little vague, but overall it gave me a good foundation and the confidence to start designing my own site.</p>
+                    <p><Link to="https://help.figma.com/hc/en-us/sections/30880632542743-Figma-Design-for-beginners" target="_blank" rel="noopener">Figma’s beginner tutorial</Link> is surprisingly solid. It walks you through frames, text, auto layout, icon design, components, and even basic interactions (though the free plan limits some of that). A couple of steps were a little vague, but overall it gave me a good foundation and the confidence to start designing my own site.</p>
                     <img src={figmaGuideImage} alt="An example image from the figma beginners tutorial: a layer inside a mobile frame is selected. A box highlights the resizing section of the right panel." />
                 </section>
 

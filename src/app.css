@@ -137,6 +137,11 @@ nav {
     font-size: 18px;
 }
 
+.nav-link:hover,
+.email-link:hover {
+    opacity: 80%;
+}
+
 .nav-link-green {
     color: #F8F8FF;
 }
@@ -612,6 +617,10 @@ body::-webkit-scrollbar-track {
 .error-page {
     width: 100vw;
     height: 100vh;
+}
+
+.email-link {
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 500px) {

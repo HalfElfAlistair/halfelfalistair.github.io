@@ -1,4 +1,5 @@
 import { GitHub } from '../icons/GitHub';
+import { Link } from '@tanstack/react-router';
 export const ContentCard = ({ parent, title, description, image, alt, links }) => {
     const oneLink = links.length === 1;
 
@@ -21,13 +22,20 @@ export const ContentCard = ({ parent, title, description, image, alt, links }) =
             <div className={`card-links ${oneLink ? "one-link" : "two-links"}`}>
                 {links.map((path, i) => {
                     return (
-                        <a key={i} href={path} className={useGitHubIcon(i) ? "" : "btn"} aria-label={useGitHubIcon(i) ? `Link to GitHub repository for ${title}` : ""}>
+                        <Link
+                            key={i}
+                            to={path}
+                            className={useGitHubIcon(i) ? "" : "btn"}
+                            aria-label={useGitHubIcon(i) ? `Link to GitHub repository for ${title}` : ""}
+                            target="_blank"
+                            rel="noopener"
+                        >
                             {useGitHubIcon(i) ? (
                                 <GitHub fillColour="#F8F8FF" />
                             ) : (
                                 i === 0 ? "Read More" : "Demo"
                             )}
-                        </a>
+                        </Link>
                     )
                 })}
             </div>
