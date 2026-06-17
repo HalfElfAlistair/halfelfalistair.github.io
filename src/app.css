@@ -48,7 +48,8 @@ h1 {
 .home,
 .portfolio,
 .posts,
-.about {
+.about,
+.article {
     width: 100vw;
 }
 
@@ -578,19 +579,55 @@ body::-webkit-scrollbar-track {
     margin: 0;
 }
 
+.one-column,
+.two-columns {
+    color: #F8F8FF;
+}
+
+.article-container {
+    padding: 75px 16px;
+
+}
+
+.one-column img,
+.two-columns img {
+    width: 100%;
+}
+
+.article-quote {
+    text-align: center;
+    padding: 16px 0;
+    font-style: italic;
+}
+
 @media only screen and (min-width: 500px) {
 
     .home,
-    .about {
+    .about,
+    .article {
         display: flex;
         align-items: start;
         justify-content: center;
     }
 
+    .article {
+        flex-wrap: wrap;
+    }
+
     .personal-bio,
     .vertical-one-column,
-    .footer-container {
+    .footer-container,
+    .article-container {
         width: 468px;
+    }
+
+    .two-columns {
+        display: flex;
+        gap: 16px;
+    }
+
+    .two-columns img {
+        width: 50%;
     }
 }
 
@@ -598,7 +635,17 @@ body::-webkit-scrollbar-track {
 
     .personal-bio,
     .vertical-one-column,
-    .footer-container {
+    .footer-container,
+    .article-container {
         width: 672px;
+    }
+
+    .two-columns {
+        gap: 32px;
+        align-items: center;
+    }
+
+    .two-columns img {
+        width: 40%;
     }
 }
